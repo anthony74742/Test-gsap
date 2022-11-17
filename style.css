@@ -82,6 +82,7 @@ body{
     position: absolute;
     background-image: url(trainau.png);
     background-size: contain;
+    z-index: 6;
     
 }
 
