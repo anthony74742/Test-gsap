@@ -49,9 +49,7 @@ const pause = () =>{
 const t1 = gsap.timeline()
 
 t1.to(".box", {
-    repeat: -1,
     duration: 7, 
-    yoyo: true,
     scale: 3.5, 
     motionPath:
         {
