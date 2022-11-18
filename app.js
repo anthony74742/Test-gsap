@@ -62,7 +62,7 @@ t1.to(".box", {
 let t2 = gsap.timeline()
 
 t2.from("path1", {drawSVG: 0},1)
-t2.to("path1", {drawSVG: "100% 100%"},2)
+gsap.to("path1", {drawSVG: "100% 100%", duration:2})
 
 gsap.to(".box1",{
     repeat: -1,

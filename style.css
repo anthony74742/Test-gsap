@@ -122,3 +122,9 @@ body{
 
 
 /************************************/
+
+svg{
+    width: 100vw;
+    height: auto;
+    position: fixed;
+}
